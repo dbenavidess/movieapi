@@ -188,13 +188,19 @@ All errors return structured JSON responses. Example for 404 Not Found:
 ---
 
 ## 👨‍💻 Author
-**Your Name** – [Your GitHub Profile](https://github.com/yourusername)
-```
+**dbenavidess** – [Your GitHub Profile](https://github.com/dbenavidess)
 
----
 
-### 📌 Notes:
-- You can replace `yourusername` in the `git clone` and author section with your actual GitHub username if you’re putting this on GitHub.
-- If you want, I can **add Swagger/OpenAPI** next so your documentation includes a live API explorer in the browser.
+- Was it easy to complete the task using AI?  
+In general, yes, on the last bit for the testing, it seemed like it had a hard time generating the full suite
+- How long did task take you to complete? (Please be honest, we need it to gather anonymized statistics)   
+close to 3 hours
+- Was the code ready to run after generation? What did you have to change to make it usable?  
+Most of it was ready, the plan that the LLM generated for the app creation played a little bit of a trick on itself, because it generated service and controller layers before dtos, so I had to ask to rewrite the classes to use the dtos. Testing was funky in general, compared to last exercise
+- Which challenges did you face during completion of the task?  
+at the end the testing was uncomplete
+- Which specific prompts you learned as a good practice to complete the task?  
+asked to rewrite taking new code into account and better summarize what is needed in the prompt
 
----
+
+
